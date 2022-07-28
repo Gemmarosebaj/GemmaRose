@@ -1,0 +1,139 @@
+body{
+	margin:0 auto;
+	 width:1250px; 
+	 position:cover;
+	
+}
+ul{
+	list-style-type:none; 
+	padding:20px; 
+	margin:0 auto;
+}
+a:link, a:visited{ 
+	font-weight:bold; 
+	color:rgb(7, 24, 24); 
+	background-color:rgb(6, 82, 105); 
+	text-align:center; 
+	text-decoration:none; 
+	padding:40px;
+}
+a:hover, a:active{
+	background-color:bisque;
+}
+li{
+	float:left;
+	padding:20px;
+	margin:0 ;
+}
+a{
+	display:block; 
+	width:200px;
+	border-radius:10px; 
+	-moz-border-radius:10px; 
+	
+}
+
+
+h1{
+	background-color:#6157b9;
+	color: #a4abb1;
+	font-style: normal;
+	font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+	border-color: #1b0433;
+	border-style: double;
+	opacity:100%;
+	border-radius: 20%;
+	outline-style: outset;
+	outline-color: rgb(54, 73, 136);
+	text-shadow: 2px 2px 5px #000000;
+	border: 5px solid #3c5599;
+	text-align: center;
+}
+h2 {
+	background-color:#6151f7;
+	color: #0080ff;
+	font-style: normal;
+	font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+	opacity:90%;
+	border-color: #800ef1;
+	border-style: double;
+	border-radius: 0%;
+	text-shadow: 2px 2px 5px #000000;
+	border: 5px solid #8aa9fd;
+   	text-align: center;
+}
+
+
+	h1:hover {background-color:#0a105e; transform: scale(1.1);}
+	h2:hover{background-color:#0a105e; transform: matrix3d(.3);}
+	
+	
+	
+	.back-video{
+		position: absolute;
+		right:0;
+		bottom:0;
+		z-index:  -1;
+
+	}
+	@media(min-aspect-ratio:16/9){
+		.back-video{
+			width:100%;
+			height:auto;
+		}
+	}
+	@media(max-aspect-ratio:16/9){
+		.back-video{
+			width:auto;
+			height:100%;
+		}
+	}
+	.social-media{
+		display:flex;
+		margin-top:20px 20px;
+		
+		
+	}
+	.icon{
+width: 100px;
+height: 100px;
+background:rgb(6, 4, 44);
+display:flex;
+align-items:center;
+justify-content: center;
+position:relative;
+margin-right:20px;
+margin-left:20px;
+margin-bottom:20px;
+border-radius:6px;
+overflow:hidden;
+transition:transform 0.5s;
+
+	}
+	.icon img{
+		width: 50px;
+		height:50px;
+	
+	}
+	.icon a{
+		position:absolute;
+		top:50;
+		left:50;
+		width:150%;
+		height:100%;
+		background: #a5e6f1;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		opacity:0;
+		transition:0.5s;
+	}
+	.icon a:hover{
+		opacity:1;
+	}
+	.icon:hover{
+		transform:translateY(-5px);
+	}
+	
+
+

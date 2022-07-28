@@ -1,0 +1,53 @@
+﻿body{
+	background-image: url("o.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: large;
+	background-color: beige;
+	background-repeat: double;
+}
+h1{
+	background-color:#b3d9ff;
+	color: #0080ff;
+	font-style: normal;
+	font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+	border-color: #cc99ff;
+	border-style: double;
+	opacity:70%;
+	border-radius: 0%;
+	outline-style: outset;
+	outline-color: pink;
+	text-shadow: 2px 2px 5px #000000;
+	border: 5px solid #66ffff;
+	text-align: center;
+}
+h2 {
+	background-color:#b3d9ff;
+	color: #0080ff;
+	font-style: normal;
+	font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+	opacity:70%;
+	border-color: #cc99ff;
+	border-style: double;
+	border-radius: 0%;
+	text-shadow: 2px 2px 5px #000000;
+	border: 5px solid #66ffff;
+   	text-align: center;
+}
+P {
+	background-color:#000000;
+	font-size: large;	
+	color: #000000;
+	font-style: normal;
+	font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+	opacity:80%;
+	border-radius: 5px;
+	text-shadow: 3px 3px 5px #ffe6ff;
+	margin-left:3%;
+	margin-right:3%;
+	text-align: center;
+}
+
+	h1:hover {background-color:#ffccff; transform: scale(1.1);}
+	h2:hover{background-color:#ffccff; transform: matrix3d(.3);}
+	p:hover{background-color:#ffccff; transform: matrix3d(.3);}
